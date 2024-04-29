@@ -20,4 +20,4 @@ read -p "Enter git remote name: " remote_name
 read -p "Enter branch name of github repo: " branch_name
 
 ### step5 push
-git push -u $remote_name branch_name
+git push -u $remote_name $branch_name
